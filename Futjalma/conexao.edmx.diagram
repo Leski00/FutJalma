@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="84e64ad1e143441193785b756cefdb9a" Name="Diagram1">
+        <EntityTypeShape EntityType="FutjalmaModel1.Campeonato" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel1.Clube" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel1.Contratacao" Width="1.5" PointX="6.375" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel1.Inscricao" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel1.Jogador" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel1.Partida" Width="1.5" PointX="8.25" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Campeonat__Campe__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Inscricao__Campe__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Partida__Campeon__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Contratac__Clube__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Inscricao__Clube__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Partida__Clube1I__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Partida__Clube2I__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel1.FK__Contratac__Jogad__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
